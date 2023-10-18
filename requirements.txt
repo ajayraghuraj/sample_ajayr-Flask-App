@@ -3,3 +3,4 @@ awscli==1.18.23
 boto3==1.12.23
 boto==2.49.0
 pycryptodome==3.9.7
+urllib3>=1.26.18 # not directly required, pinned by Snyk to avoid a vulnerability
